@@ -1,0 +1,64 @@
+body {
+  padding-top: 5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
+}
+
+h5 {
+	padding-top: 10px;
+}
+
+.starter-template {
+  text-align: left;
+  padding: 2rem 6rem;
+}
+
+.hrzero {
+	margin: 0;
+}
+
+.forlogo {
+	margin-bottom: 2em;
+}
+
+#maindiv {
+	margin-top: 2em;
+}
+
+a {
+    color: #FF2E7C;
+}
+
+a:hover,
+a:active {
+    color: #FF2E7C;
+    text-decoration: none;
+}
+
+footer {
+	text-align: right;
+}
+
+.mainlogo img {
+	width: 80%;
+	min-width: 300px;
+}
+
+.playstore {
+	text-align: right;
+}
+
+.playstore img {
+	width: 70%;
+	min-width: 100px;
+}
+
+/* responsive */
+@media only screen and (max-width: 800px) {
+	.starter-template {
+	  padding: 1rem 2rem;
+	} 
+}
