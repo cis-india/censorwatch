@@ -1,6 +1,6 @@
 # CensorWatch
 
-This repository hosts the website for CensorWatch, CIS' project to map net neutrality violations and web censorship in India, the data collected through the project and the scripts used to analyse the data
+This repository hosts the website for CensorWatch (CIS' project to map net neutrality violations and web censorship in India), the data collected through the project and the scripts used to analyse the data
 
 To download the data, visit the Releases section of this repository.
 
