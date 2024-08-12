@@ -61,7 +61,7 @@
 
         <div class="container" id="maindiv">
           
-
+		  <hr>
           <!-- DETAILS -->
           <p>The app does not ask for any special permissions, and does not collect any personally identifiable information. We only store a random device identifier that the app will generate when you start the network tests. Please see a detailed privacy policy for the app below.</p>
 
@@ -98,8 +98,11 @@
           <p>If you have downloaded the app from the Google Play Store, please also refer to Google's privacy policy.</p>
 
           <p>If you have any questions, concerns or suggestions, please send an email to communications [at] cis-india [dot] org.</p>
+		  
+		  <p><strong>Update (2023)</strong><br>
+		  
+		  <p>While analysing data collected by Censorwatch, we observed that our database accidentally retained some users' IP addresses.  First, the response headers sent by servers sometimes mirrored the users' IP address. Our scripts were not able to catch all these instances at first. We deleted all response headers from our database now. Second, for a very small portion of our early users, our script that deleted users' IP addresses failed to run successfully. We deleted all such users' IP address from our database now. Note that these IP addresses were never published openly, were not used for any analysis by CIS staff, and have now been completely deleted from our database. We sincerely apologise for the technical oversight, and are happy to answer any questions at our email address communications [at] cis-india.org.</p>
 
-          <hr>
         </div>
 
         <footer class="container">
